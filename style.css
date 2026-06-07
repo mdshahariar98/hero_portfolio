@@ -1,0 +1,939 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFEFA;
+}
+
+.continer {
+    width: 87.5%;
+    margin: 0 auto;
+}
+
+
+
+#hero {
+    padding-top: 100px;
+    background: url("./image/Hero-bg.png");
+    background-size: 300px;
+    margin-bottom: 150px;
+}
+
+#hero-continer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 87.5%;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+
+#hero_image img {
+    height: 800px;
+}
+
+#hero-content h1 {
+    font-size: 56px;
+    margin-bottom: 30px;
+    width: 719px;
+    font-weight: 850;
+}
+
+#hero-content{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#hero-content h1 {
+    font-size: 56px;
+    margin-bottom: 30px;
+    width: 719px;
+    font-weight: 850;
+}
+
+#hero-content h1 span {
+    color: #872BFF;
+}
+
+#hero-content p {
+    font-size: 18px;
+    color: #8A8A8A;
+    font-weight: 500;
+    line-height: 26px;
+    width: 719px;
+    margin-bottom: 30px;
+}
+
+.hedint {
+    display: none;
+}
+
+.btn {
+    margin-right: 20px;
+    background-color: #872BFF;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 11px 31px 0 #8c8c8c;
+    cursor: pointer;
+    
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #872BFF;
+}
+
+.bnt {
+    background-color: white;
+    padding: 14px 32px;
+    border: 1px solid #872BFF;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 11px 31px 0 #8c8c8c;
+    cursor: pointer;
+
+    transition: all 0.5s ease;
+    
+}
+
+.bnt:hover {
+    background-color: #872BFF;
+    color: white;
+    border: 1px solid #872BFF;
+}
+
+ /* =====================
+           SKILL SECTION
+    ===================== */
+#skill {
+     margin-bottom: 150px;
+     padding: 0 20px;
+     padding-right: -50px;
+}
+
+
+.headin {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.headin h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+    color: #6A14DA;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.headin h2 {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+/* =====================
+   CARD BOX
+===================== */
+#card-box {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: stretch;
+     gap: 30px;
+     margin-bottom: 30px;
+}
+
+/* =====================
+    CARD
+===================== */
+.card {
+    flex: 0 1 364px;
+    max-width: 364px;
+    width: 100%;
+    background: #fff;
+     padding: 40px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 4px #00000025;
+}
+
+.card img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.card h3 {
+    padding-top: 34px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #0D1321;
+    line-height: 26px;
+    padding-bottom: 34px;
+}
+
+.card a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+     color: #6A14DA;
+}
+
+#caed_box{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+#projects, #experience {
+    margin-bottom: 150px;
+}
+
+.project_cord{
+    padding: 56px;
+    background: #fff;
+    border: 1px solid #872BFF;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 56px;
+
+    margin-bottom: 60px;
+}
+
+.project_img{
+    flex: 1;
+    text-align: center;
+}
+
+.project_img img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.project_content{
+    flex: 1;
+}
+
+.project_content h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.project_content p{
+    font-size: 16px;
+    color: #0E0E0E70;
+    line-height: 28px;
+}
+
+.project_content *{
+    margin-bottom: 26px;
+}
+.company-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.brands{
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 4px #00000025;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.brands img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn-container{
+    text-align: center;
+    padding: 60px 0;
+}
+
+#futar {
+    height: 60px;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 123px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #5B5757;
+    justify-content: left;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    gap: 32px;
+    margin-left: auto;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Desktop  */
+
+@media screen and (max-width:1200px) {
+    #hero_image img {
+    height: 580px;
+}
+
+#hero-continer {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+}
+
+/* android device portrait */
+
+@media screen and (max-width: 320px){
+
+    #hero {
+    padding-top: 68px;
+    margin-bottom: 150px;
+    }
+
+    #hero-continer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    #hero-content{
+        width: 100%;
+        padding: 20px;
+    }
+
+    #hero-content h1{
+        width: 100%;
+        font-size: 32px;
+    }
+
+    #hero-content p{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    #hero_image img{
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    #hero_btn {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .btn {
+        margin-right: 8px;
+        background-color: #872BFF;
+        padding: 12px 28px;
+        border: none;
+        border-radius: 28px;
+        font-size: 8px;
+        font-weight: bold;
+        color: white;
+        box-shadow: 0 11px 31px 0 #8c8c8c;
+        cursor: pointer;
+    
+        transition: all 0.5s ease;
+    }
+
+    .btn:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid #872BFF;
+    }
+
+    .bnt {
+    background-color: white;
+        padding: 12px 28px;
+        border: 1px solid #872BFF;
+        border-radius: 28px;
+        font-size: 8px;
+        font-weight: bold;
+        box-shadow: 0 11px 31px 0 #8c8c8c;
+        cursor: pointer;
+
+        transition: all 0.5s ease;
+    
+    }
+    .bnt:hover {
+        background-color: #872BFF;
+        color: white;
+        border: 1px solid #872BFF;
+    }
+
+
+}
+
+
+/* =====================
+ RESPONSIVE — 1200px
+===================== */
+@media (max-width: 1200px) {
+    .headin h2 {
+        font-size: 38px;
+    }
+
+    .card {
+         flex: 0 1 300px;
+        max-width: 300px;
+         padding: 30px;
+    }
+}
+
+/* =====================
+    RESPONSIVE — 992px
+===================== */
+@media (max-width: 992px) {
+    #skill {
+        margin-bottom: 100px;
+    }
+
+    .headin h4 {
+         font-size: 20px;
+    }
+
+    .headin h2 {
+          font-size: 32px;
+    }
+
+    .headin {
+          margin-bottom: 40px;
+    }
+
+    #card-box {
+          gap: 20px;
+    }
+
+    .card {
+           flex: 0 1 280px;
+           max-width: 280px;
+        padding: 28px;
+    }
+
+    .card h3 {
+          font-size: 20px;
+         padding-top: 24px;
+    }
+
+    .card p {
+           font-size: 14px;
+     }
+}
+
+/* =====================
+    RESPONSIVE — 768px
+     2 cards per row
+===================== */
+@media (max-width: 768px) {
+    #skill {
+         margin-bottom: 80px;
+         padding: 0 16px;
+    }
+
+    .headin h4 {
+         font-size: 18px;
+         letter-spacing: 0.25em;
+    }
+
+    .headin h2 {
+        font-size: 28px;
+    }
+
+    .headin {
+        margin-bottom: 36px;
+    }
+
+    #card-box {
+        gap: 16px;
+    }
+
+    .card {
+         flex: 0 1 calc(50% - 8px);
+        max-width: calc(50% - 8px);
+         padding: 24px 20px;
+    }
+
+    .card img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+        padding-top: 18px;
+        padding-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 13px;
+        line-height: 22px;
+        padding-bottom: 24px;
+    }
+}
+
+/* =====================
+     RESPONSIVE — 576px
+     1 card per row, centered
+===================== */
+@media (max-width: 576px) {
+    #skill {
+        margin-bottom: 60px;
+         padding: 0 12px;
+    }
+}
+
+    .headin h4 {
+         font-size: 16px;
+         letter-spacing: 0.2em;
+        margin-bottom: 14px;
+    }
+
+     .headin h2 {
+         font-size: 24px;
+    }
+
+    .headin {
+         margin-bottom: 30px;
+    }
+
+    #card-box {
+         gap: 14px;
+    
+
+    .card {
+        flex: 0 1 100%;
+         max-width: 480px;
+         padding: 28px 24px;
+         margin: 0 auto;
+    }
+
+    .card img {
+         width: 48px;
+         height: 48px;
+    }
+
+    .card h3 {
+           font-size: 20px;
+          padding-top: 20px;
+           padding-bottom: 10px;
+    }
+
+    .card p {
+          font-size: 14px;
+                line-height: 24px;
+          padding-bottom: 20px;
+    }
+}
+
+/* =====================
+    RESPONSIVE — 400px
+===================== */
+@media (max-width: 400px) {
+    #skill {
+        padding: 0 8px;
+        margin-bottom: 50px;
+    }
+
+    .headin h4 {
+         font-size: 14px;
+        letter-spacing: 0.15em;
+    }
+
+    .headin h2 {
+        font-size: 20px;
+    }
+
+    .card {
+         padding: 22px 18px;
+         border-radius: 12px;
+    }
+
+    .card img {
+         width: 44px;
+          height: 44px;
+    }
+
+    .card h3 {
+                font-size: 18px;
+         padding-top: 16px;
+    }
+
+    .card p {
+         font-size: 13px;
+        line-height: 22px;
+    }
+}
+
+/* =====================
+     RESPONSIVE — 290px (minimum)
+===================== */
+@media (max-width: 320px) {
+    .headin h4 {
+        font-size: 13px;
+        letter-spacing: 0.1em;
+    }
+}
+
+    .headin h2 {
+           font-size: 18px;
+    }
+
+    .card {
+           padding: 18px 14px;
+           border-radius: 10px;
+    }
+
+    .card img {
+          width: 40px;
+         height: 40px;
+    }
+
+    .card h3 {
+         font-size: 16px;
+         padding-top: 14px;
+         padding-bottom: 8px;
+    }
+
+    .card p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 16px;
+    }
+
+    .card a {
+        font-size: 13px;
+    }
+
+
+    /* =====================
+   PROJECT RESPONSIVE
+===================== */
+
+/* 1200px */
+@media (max-width:1200px){
+
+    .project_cord{
+        gap:40px;
+        padding:40px;
+    }
+
+}
+
+/* 992px */
+@media (max-width:992px){
+
+    #projects,
+    #experience{
+        margin-bottom:100px;
+    }
+
+    .project_cord{
+        gap:30px;
+        padding:30px;
+    }
+
+    .project_content h2{
+        font-size:28px;
+    }
+
+}
+
+/* 768px */
+@media (max-width:768px){
+
+    .headin h2{
+        font-size:30px;
+    }
+
+    .project_cord{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .project_img{
+        order:1;
+    }
+
+    .project_content{
+        order:2;
+    }
+
+    .project_content h2{
+        font-size:26px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:576px){
+
+    .continer {
+    width: 98%;
+    margin: 0 auto;
+}
+
+    #projects{
+        margin-bottom:80px;
+    }
+
+    .project_cord{
+        padding:20px;
+        gap:20px;
+        text-align:center;
+    }
+
+    .project_img img{
+        max-width:100%;
+    }
+
+    .project_content h2{
+        font-size:22px;
+    }
+
+    .project_content p{
+        font-size:15px;
+        line-height:24px;
+    }
+
+    .project_content *{
+        margin-bottom:18px;
+    }
+
+}
+
+/* 290px */
+@media (max-width:290px){
+
+    .project_cord{
+        padding:15px;
+    }
+
+    .project_content h2{
+        font-size:20px;
+    }
+
+    .project_content p{
+        font-size:14px;
+        line-height:22px;
+    }
+
+    .project_img img{
+        width:100%;
+    }
+
+}
+
+/* =====================
+   EXPERIENCE RESPONSIVE
+===================== */
+
+/* 1200px */
+
+@media (max-width:1200px){
+
+    .company-card{
+        gap:30px;
+    }
+
+    .brands{
+        padding:35px;
+    }
+
+}
+
+/* 992px */
+
+@media (max-width:992px){
+
+    .company-card{
+        gap:25px;
+    }
+
+    .brands{
+        padding:30px;
+    }
+
+}
+
+/* 768px */
+
+@media (max-width:768px){
+
+    .headin h2{
+        font-size:30px;
+    }
+
+    .company-card{
+        gap:20px;
+    }
+
+    .brands{
+        padding:25px;
+    }
+
+    .brands img{
+        width:90px;
+    }
+
+    .btn-container{
+        padding:40px 0;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width:576px){
+
+    .headin h4{
+        font-size:18px;
+    }
+
+    .headin h2{
+        font-size:24px;
+        line-height:1.4;
+    }
+
+    .company-card{
+        gap:15px;
+    }
+
+    .brands{
+        padding:20px;
+    }
+
+    .brands img{
+        width:80px;
+    }
+
+    .btn-container{
+        padding:30px 0;
+    }
+
+}
+
+/* Small Mobile */
+
+@media (max-width:290px){
+
+    .headin h2{
+        font-size:20px;
+    }
+
+    .brands{
+        padding:15px;
+    }
+
+    .brands img{
+        width:65px;
+    }
+
+}
+
+
+
+/* kamsara */
+
+/* Tablet */
+@media (max-width:768px){
+
+    #futar{
+        padding: 20px;
+    }
+
+    .content p{
+        font-size: 14px;
+    }
+
+    .icon{
+        gap: 20px;
+    }
+
+    .icon img{
+        width: 28px;
+        height: 28px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:576px){
+
+    #futar{
+        padding: 10px;
+        gap: 18px;
+    }
+
+    .content p{
+        font-size: 8px;
+    }
+
+    .icon{
+        gap: 10px;
+    }
+
+    .icon img{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+
+
+
+
