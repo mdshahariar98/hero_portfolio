@@ -418,6 +418,21 @@ body {
 
 }
 
+/* android device portrait */
+
+@media screen and (max-width: 320px){
+    .continer {
+    width: 98%;
+    margin: 0 auto;
+}
+
+    #hero_image img {
+        width: 100%;
+        vertical-align: middle;
+    }
+
+}
+
 
 /* =====================
  RESPONSIVE — 1200px
